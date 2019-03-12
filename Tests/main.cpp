@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------------
-Laboratoire : Exercice 5.14
+Laboratoire : Tests
 Fichier     : main.cpp
 Auteur(s)   : Quentin Le Ray
 Date        : 10.01.2019
@@ -25,15 +25,28 @@ using namespace std;
 int main() {
 	
 
-	int x = 7;
+	//vector<int> test = { 1,2,3,4,5,6,7,8,9 };
 
-	const int z = x;
+	//size_t temp = 0;
 
-	cout << z << endl;
+	//test.erase(test.begin() + temp);
 
-	(int&)z = 48;
+	//for (auto it = test.begin(); it != test.end(); it++)
+	//{
+	//	cout << *it << " ";
+	//}
 
-	cout << z << endl;
+
+	int essai = 0;
+	const int test = essai;
+	//Hello
+
+	essai = 45;
+	//essai = 64;
+	(int&)test = essai;
+
+	cout << test;
+
 
 	
 	system("PAUSE");
