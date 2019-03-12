@@ -39,7 +39,6 @@ int main() {
 
 	int essai = 0;
 	const int test = essai;
-	//Hello
 
 	essai = 45;
 	//essai = 64;
