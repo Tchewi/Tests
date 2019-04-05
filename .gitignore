@@ -16,3 +16,6 @@
 *.vcxproj
 *.filters
 *.user
+*.obj
+*.log
+*.idb
