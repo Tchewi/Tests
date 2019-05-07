@@ -19,3 +19,6 @@
 *.obj
 *.log
 *.idb
+*.txt
+/.vs/Tests/v16/Preview/Solution.VC.db-shm
+*.db-wal

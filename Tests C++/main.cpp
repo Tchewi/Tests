@@ -13,25 +13,21 @@ Compilateur : MinGW-g++ <6.3.0>
 -----------------------------------------------------------------------------------
 */
 
-#include <stdio.h>
 
-//#include <iostream>
-//#include <iomanip>
-//#include <vector>
-//#include <string>
-//#include <cstdlib> 
-//#include <algorithm>
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <string>
+#include <cstdlib> 
+#include <algorithm>
+
+using namespace std;
 
 
 int main() {
-	
+	string s("HELLO"s);
+	make_heap(s.begin(), s.end());
+	cout << s;
 
-	int test = 45;
-
-	printf("Hello %i \n", test);
-
-	
 	system("PAUSE");
-	return 0;
-
 }
