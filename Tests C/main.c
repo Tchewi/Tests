@@ -18,9 +18,19 @@ Compilateur : MinGW-g++ <6.3.0>
 
 int main(void)
 {
+	const char test[6] = "Hello";
+	test[0] = 'B';
+	printf("%s", test);
 
+	printf("\n");
 
+	char* essai = "Coucou";
+	essai = test;
+	*essai = 'V';
 
+	printf("%s", essai);
+
+	printf("\n");
 	system("PAUSE");
 	return EXIT_SUCCESS;
 }

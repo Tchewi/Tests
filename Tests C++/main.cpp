@@ -15,19 +15,26 @@ Compilateur : MinGW-g++ <6.3.0>
 
 
 #include <iostream>
-#include <iomanip>
-#include <vector>
 #include <string>
-#include <cstdlib> 
-#include <algorithm>
 
 using namespace std;
 
-
 int main() {
-	string s("HELLO"s);
-	make_heap(s.begin(), s.end());
-	cout << s;
 
+	int a = 5;
+
+	int b = 1;
+
+	while (b <= a){
+		int c = 1;
+		while (c <= b){
+			cout << "*";
+			c++;
+		}
+		cout << endl;
+		b++;
+	}
+	
 	system("PAUSE");
+	return EXIT_SUCCESS;
 }
